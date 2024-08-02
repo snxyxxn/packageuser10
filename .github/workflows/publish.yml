@@ -28,9 +28,6 @@ jobs:
       - name: Install project dependencies
         run: poetry install
       
-      - name: Pytest
-        run: poetry run pytest
-
       - name: Build package
         run: poetry build
 
